@@ -26,7 +26,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.zendesk.Boot</mainClass>
+                            <mainClass>com.z.Boot</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,15 +1,15 @@
-package com.zendesk.module;
+package com.z.module;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.TypeLiteral;
 import com.google.inject.name.Names;
-import com.zendesk.dao.TodoDao;
-import com.zendesk.dao.TodoDaoImpl;
-import com.zendesk.model.Todo;
-import com.zendesk.routes.Router;
-import com.zendesk.routes.TodoRouter;
-import com.zendesk.service.TodoService;
-import com.zendesk.service.TodoServiceImpl;
+import com.z.dao.TodoDao;
+import com.z.dao.TodoDaoImpl;
+import com.z.model.Todo;
+import com.z.routes.Router;
+import com.z.routes.TodoRouter;
+import com.z.service.TodoService;
+import com.z.service.TodoServiceImpl;
 import io.jsondb.JsonDBTemplate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

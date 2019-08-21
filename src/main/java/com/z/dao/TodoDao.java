@@ -1,4 +1,4 @@
-package com.zendesk.dao;
+package com.z.dao;
 
 import java.util.List;
 

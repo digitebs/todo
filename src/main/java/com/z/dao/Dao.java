@@ -1,6 +1,6 @@
-package com.zendesk.dao;
+package com.z.dao;
 
-import com.zendesk.model.Todo;
+import com.z.model.Todo;
 
 import java.util.List;
 import java.util.Optional;

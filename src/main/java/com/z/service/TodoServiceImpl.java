@@ -1,9 +1,9 @@
-package com.zendesk.service;
+package com.z.service;
 
 import com.google.inject.Inject;
-import com.zendesk.dao.TodoDao;
-import com.zendesk.model.Todo;
-import com.zendesk.module.TodoModule;
+import com.z.dao.TodoDao;
+import com.z.model.Todo;
+import com.z.module.TodoModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

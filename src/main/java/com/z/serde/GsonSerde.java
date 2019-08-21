@@ -1,4 +1,4 @@
-package com.zendesk.serde;
+package com.z.serde;
 
 import com.google.gson.Gson;
 

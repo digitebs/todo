@@ -1,7 +1,7 @@
-package com.zendesk.dao;
+package com.z.dao;
 
 import com.google.inject.Inject;
-import com.zendesk.model.Todo;
+import com.z.model.Todo;
 import io.jsondb.JsonDBTemplate;
 
 import java.util.List;

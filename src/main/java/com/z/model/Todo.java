@@ -1,4 +1,4 @@
-package com.zendesk.model;
+package com.z.model;
 
 import io.jsondb.annotation.Document;
 import io.jsondb.annotation.Id;

@@ -1,4 +1,4 @@
-package com.zendesk.routes;
+package com.z.routes;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;

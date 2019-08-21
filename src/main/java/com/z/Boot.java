@@ -1,9 +1,9 @@
-package com.zendesk;
+package com.z;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
-import com.zendesk.module.TodoModule;
-import com.zendesk.routes.ApiRouter;
+import com.z.module.TodoModule;
+import com.z.routes.ApiRouter;
 
 public class Boot {
     public static void main(String[] args) {

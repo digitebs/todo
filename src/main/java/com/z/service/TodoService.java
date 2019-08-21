@@ -1,6 +1,6 @@
-package com.zendesk.service;
+package com.z.service;
 
-import com.zendesk.model.Todo;
+import com.z.model.Todo;
 
 import java.util.List;
 

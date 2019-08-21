@@ -1,4 +1,4 @@
-package com.zendesk.routes;
+package com.z.routes;
 
 public interface Router {
     void route();

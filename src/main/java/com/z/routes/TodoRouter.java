@@ -1,9 +1,9 @@
-package com.zendesk.routes;
+package com.z.routes;
 
 import com.google.inject.Inject;
-import com.zendesk.model.Todo;
-import com.zendesk.serde.GsonSerde;
-import com.zendesk.service.TodoService;
+import com.z.model.Todo;
+import com.z.serde.GsonSerde;
+import com.z.service.TodoService;
 
 import java.util.List;
 import java.util.Objects;
