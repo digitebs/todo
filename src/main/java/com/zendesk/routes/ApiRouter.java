@@ -31,7 +31,7 @@ public class ApiRouter implements Router {
             boolean authenticated = username.length() > 0 && username.equals(password);
             // ... check if authenticated
             if (!authenticated) {
-                halt(401, "You are not welcome here");
+                halt(401, "Error 401 - Unauthorized");
             }
 
             request.attribute("username", username);

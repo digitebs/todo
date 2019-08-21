@@ -9,6 +9,11 @@
 * gson
 * commons-io
 
+##### Build
+```
+mvn clean compile package
+```
+
 ##### Run
 ```
 docker build -t todo
@@ -36,6 +41,18 @@ cache-control: no-cache
 	body:"test2"
 }
 
+```
+
+Documentation
+
+https://documenter.getpostman.com/view/8479502/SVfJVBYN?version=latest
+
+Cleanup
+
+```
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker rmi $(docker images -q)
 ```
 
 
